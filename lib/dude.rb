@@ -1,5 +1,5 @@
 class Exception
-  def intialize(message)
+  def initialize(message)
     @message = message
   end
 
