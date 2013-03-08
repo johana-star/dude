@@ -1,5 +1,8 @@
 # dude
 
+Appends 'dude' to your exception messages.
+
+
 _That's just like your opinion man._
 
 ## Contributing to dude
