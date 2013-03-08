@@ -1,6 +1,6 @@
 # dude
 
-_That's just like your opinion man._
+_That's just, like, your opinion, man._
 
 ## Contributing to dude
 
