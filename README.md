@@ -2,6 +2,14 @@
 
 _That's just, like, your opinion, man._
 
+Dude is a gem which improves errors by appending ' dude.' to exception messages.
+
+Dude was created to make exceptions more fun to encourage developers to read errors more closely. it makes reading error messages more fun without obfuscating their meaning. It's a work in progress, and we want issues and pull requests.
+
+Possible pull requests include:
+- Exception class specific message overrides
+- A randomization feature that varies which message is delivered.
+
 ## Contributing to dude
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
