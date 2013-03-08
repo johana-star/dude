@@ -1,0 +1,32 @@
+Exception
+  NoMemoryError
+  ScriptError
+    LoadError
+    NotImplementedError  
+    SyntaxError
+  SecurityError          "... and the rug was stolen. It really tied the room together"
+  SignalException
+    Interrupt
+  StandardError
+    ArgumentError
+    EncodingError
+    FiberError
+    IOError
+      EOFError
+    IndexError
+      KeyError
+      StopIteration
+    LocalJumpError 
+    NameError            "We don't believe in #{method name} Lebowski!"
+      NoMethodError
+    RangeError
+      FloatDomainError
+    RegexpError
+    RuntimeError
+    SystemCallError
+    ThreadError
+    TypeError
+    ZeroDivisionError    
+  SystemExit
+  SystemStackError
+
