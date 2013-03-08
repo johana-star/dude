@@ -1,9 +1,11 @@
 class Exception
+  attr_reader :initial_message
+
   def initialize(message)
-    @message = message
+    @initial_message = message
   end
 
   def to_s
-    "#{@message}, dude."
+    "#{@initial_message}, dude."
   end
 end
