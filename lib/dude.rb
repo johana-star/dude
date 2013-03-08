@@ -6,5 +6,4 @@ class Exception
   def to_s
     "#{@message}, dude."
   end
-
 end
