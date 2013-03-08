@@ -1,6 +1,8 @@
-require 'helper'
+require 'dude'
 
-class TestDude < Test::Unit::TestCase
+require 'minitest/autorun'
+
+class TestDude < MiniTest::Unit::TestCase
   def test_to_s
     expected = "foo, dude."
     actual = Exception.new("foo").to_s
