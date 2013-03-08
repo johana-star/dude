@@ -1,7 +1,9 @@
 require 'helper'
 
 class TestDude < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  def test_to_s
+    expected = "foo, dude."
+    actual = Exception.new("foo").to_s
+    assert_equal(expected, actual)
   end
 end
