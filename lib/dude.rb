@@ -1,9 +1,11 @@
 class Exception
+  attr_accessor :message
+  
   def initialize(message)
-    @message = message
+    self.message = message
   end
 
   def to_s
-    "#{@message}, dude."
+    "#{message}, dude."
   end
 end
