@@ -12,7 +12,7 @@ Possible pull requests include:
   * Exception class specific message overrides
   * A randomization feature that varies which message is delivered.
 
-Dude will be releasing a minor version bump (to 0.1.0) when existing issues and PR are closed.
+Inspiration for further improvements can be found in [hacketyhack's error overriding](https://github.com/hacketyhack/hacketyhack/blob/master/lib/dev/errors.rb).
 
 Contributing
 ============
