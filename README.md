@@ -26,6 +26,7 @@ Contributing
   * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 Travis status: [![Build Status](https://travis-ci.org/strand/dude.png)](https://travis-ci.org/strand/dude)
+Code Climate: [![Code Climate](https://codeclimate.com/github/strand/dude.png)](https://codeclimate.com/github/strand/dude)
 
 Copyright
 =========
