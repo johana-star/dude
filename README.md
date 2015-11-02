@@ -28,6 +28,13 @@ Contributing
 Travis status: [![Build Status](https://travis-ci.org/strand/dude.png)](https://travis-ci.org/strand/dude)
 Code Climate: [![Code Climate](https://codeclimate.com/github/strand/dude.png)](https://codeclimate.com/github/strand/dude)
 
+Rubies Supported
+================
+
+Dude is supported by MRI, JRuby, and REE.
+
+Unfortunately, Dude does not work with Rubinius.
+
 Copyright
 =========
 
