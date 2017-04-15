@@ -6,6 +6,21 @@ class Exception
   end
 
   def to_s
-    "#{@initial_message}, dude."
+    # "#{self.inspect}, hello"
+    require'pry';binding.pry
+    case self
+    when LoadError
+    when ArgumentError
+      "Yo, there's nothing here in ArgErr"
+    when NoMethodError
+      "#{@initial_message}, hello."
+    when RangeError
+    when RegexpError
+    when RuntimeError # -- default for raise
+    when ZeroDivisionError
+    else
+      "#{@initial_message}, dude."
+    end
+
   end
 end
